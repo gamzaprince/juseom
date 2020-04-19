@@ -4,7 +4,7 @@ public class Bidder {
 	String userId;
 	String auctionId;
 	String bidNumber;
-	String bidPrice;
+	int bidPrice;
 	
 	public String getBidderId() {
 		return bidderId;
@@ -30,10 +30,10 @@ public class Bidder {
 	public void setBidNumber(String bidNumber) {
 		this.bidNumber = bidNumber;
 	}
-	public String getBidPrice() {
+	public int getBidPrice() {
 		return bidPrice;
 	}
-	public void setBidPrice(String bidPrice) {
+	public void setBidPrice(int bidPrice) {
 		this.bidPrice = bidPrice;
 	}
 }

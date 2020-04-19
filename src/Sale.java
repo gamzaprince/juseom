@@ -2,7 +2,7 @@
 public class Sale {
 	String saleId;
 	String bookId;
-	String suggestPrice;
+	int suggestPrice;
 	
 	public String getSaleId() {
 		return saleId;
@@ -16,10 +16,10 @@ public class Sale {
 	public void setBookId(String bookId) {
 		this.bookId = bookId;
 	}
-	public String getSuggestPrice() {
+	public int getSuggestPrice() {
 		return suggestPrice;
 	}
-	public void setSuggestPrice(String suggestPrice) {
+	public void setSuggestPrice(int suggestPrice) {
 		this.suggestPrice = suggestPrice;
 	}
 }

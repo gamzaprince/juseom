@@ -2,8 +2,8 @@
 public class Auction {
 	String auctionId;
 	String bookId;
-	String startPrice;
-	String presentPrice;
+	int startPrice;
+	int presentPrice;
 	String salesNumber;
 	String bidNumber;
 	String endTime;
@@ -20,16 +20,16 @@ public class Auction {
 	public void setBookId(String bookId) {
 		this.bookId = bookId;
 	}
-	public String getStartPrice() {
+	public int getStartPrice() {
 		return startPrice;
 	}
-	public void setStartPrice(String startPrice) {
+	public void setStartPrice(int startPrice) {
 		this.startPrice = startPrice;
 	}
-	public String getPresentPrice() {
+	public int getPresentPrice() {
 		return presentPrice;
 	}
-	public void setPresentPrice(String presentPrice) {
+	public void setPresentPrice(int presentPrice) {
 		this.presentPrice = presentPrice;
 	}
 	public String getSalesNumber() {

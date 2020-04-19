@@ -7,9 +7,11 @@ public class Book {
 	String author;
 	String publisher;
 	String date;
-	String price;
+	int price;
 	String condition;
 	String detail;
+	String progress;
+	String tradeType;
 	
 	public String getBookId() {
 		return bookId;
@@ -53,10 +55,10 @@ public class Book {
 	public void setDate(String date) {
 		this.date = date;
 	}
-	public String getPrice() {
+	public int getPrice() {
 		return price;
 	}
-	public void setPrice(String price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
 	public String getCondition() {
@@ -70,6 +72,18 @@ public class Book {
 	}
 	public void setDetail(String detail) {
 		this.detail = detail;
+	}
+	public String getProgress() {
+		return progress;
+	}
+	public void setProgress(String progress) {
+		this.progress = progress;
+	}
+	public String getTradeType() {
+		return tradeType;
+	}
+	public void setTradeType(String tradeType) {
+		this.tradeType = tradeType;
 	}
 	
 }
